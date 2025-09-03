@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <style name="Theme.CounterApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.CounterApp</item>
+    </style>
+</resources>
