@@ -12,7 +12,7 @@ A simple and elegant counter application built with Flutter, showcasing a clean 
 - **Custom Buttons:** A reusable CustomButton widget demonstrates modular and clean code practices.
 - **Material 3:** Designed with the latest Material Design guidelines for a contemporary look and feel.
 
-![Counter App](counter-app.webp)
+<img src="counter-app.webp" alt="Counter App" width="300"/>
 
 ## Getting Started
 
